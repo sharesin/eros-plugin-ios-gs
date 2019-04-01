@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ErosPluginGS"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ErosPluginGS."
+  spec.summary      = "ErosPluginGS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/ErosPluginGS"
+  spec.homepage     = "https://github.com/sharesin/eros-plugin-ios-gs"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT (sharesin)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ErosPluginGS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/sharesin/eros-plugin-ios-gs.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
