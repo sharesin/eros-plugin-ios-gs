@@ -11,7 +11,7 @@
 #import <WeexPluginLoader/WeexPluginLoader.h>
 // 第一个参数为暴露给 js 端 Module 的名字，
 // 第二个参数为你 Module 的类名
-WX_PlUGIN_EXPORT_MODULE(sayHello, GSEventModule)
+WX_PlUGIN_EXPORT_MODULE(gsEventModule, GSEventModule)
 
 @implementation GSEventModule
 
