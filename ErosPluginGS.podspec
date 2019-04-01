@@ -137,6 +137,6 @@ Pod::Spec.new do |spec|
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency 'WeexPluginLoader'
   spec.dependency 'WeexSDK'
-  spec.dependency 'WXDevtool'
+  # spec.dependency 'WXDevtool'
 
 end
