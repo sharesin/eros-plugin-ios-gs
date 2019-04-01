@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ErosPluginGS"
   spec.version      = "0.0.1"
-  spec.summary      = "ErosPluginGS."
+  spec.summary      = "WeexEros iOS ErosPluginGS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                    WeexEros iOS ErosPluginGS
                    DESC
 
   spec.homepage     = "https://github.com/sharesin/eros-plugin-ios-gs"
