@@ -90,7 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.vendored_libraries = 'Source/GSDK/GSDK.a'
+  spec.vendored_libraries = 'Source/GSDK/*.a'
+  spec.vendored_frameworks = 'Source/GSDK/*.framework'
 
   spec.source_files  = "Source/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
