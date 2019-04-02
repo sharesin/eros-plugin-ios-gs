@@ -122,7 +122,8 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
   
-  spec.vendored_libraries = 'Source/GSDK/*.a'
+  spec.static_framework = true
+  spec.vendored_library = 'Source/GSDK/GSDK.a'
   # spec.vendored_frameworks = 'Source/GSDK/*.framework'
 
 
