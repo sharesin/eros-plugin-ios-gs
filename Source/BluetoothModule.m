@@ -39,7 +39,7 @@ WX_EXPORT_METHOD(@selector(disconnectPrinter))
 WX_EXPORT_METHOD(@selector(bondDevice:callback:))
 WX_EXPORT_METHOD(@selector(enableBluetooth:callback:))
 
-@synthesize weexInstance;
+// @synthesize weexInstance;
 
 -(NSMutableDictionary *)dicts {
     if (!_dicts) {
